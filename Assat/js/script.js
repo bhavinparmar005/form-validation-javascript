@@ -24,5 +24,14 @@ form.addEventListener('submit',(e)=>{
 
 e.preventDefault(); 
 
-    console.log("hello");
+     let data={
+      first_name:document.getElementById("first_name").value ,
+      email:document.getElementById("email").value ,
+      number:document.getElementById("mobile_number").value,
+      password:document.getElementById("password").value ,
+      conform_password:document.getElementById("conform_password").value ,
+     }
+
+
+     
 });
