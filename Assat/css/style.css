@@ -5,6 +5,7 @@
   font-family: "roboto", sans-serif;
   color: #fff;
 }
+
 .outer_container {
   width: 100%;
   height: 100vh;
@@ -13,6 +14,7 @@
   justify-content: center;
   align-items: center;
 }
+
 .sub_container {
   width: 350px;
   height: 580px;
@@ -30,6 +32,7 @@
   border-radius: 25px;
   padding: 13px;
 }
+
 .title {
   width: 100%;
   height: 60px;
@@ -37,6 +40,7 @@
   display: flex;
   align-items: end;
 }
+
 .sub_title {
   width: 100%;
   height: 40px;
@@ -44,6 +48,7 @@
   display: flex;
   align-items: end;
 }
+
 .input_container {
   margin-top: 30px;
   width: 100%;
@@ -52,6 +57,7 @@
   border-radius: 10px;
   background: #303346;
 }
+
 .input_style {
   width: 100%;
   height: 100%;
@@ -61,13 +67,15 @@
   padding: 0px 10px;
   font-size: 16px;
 }
+
 .style_error {
   color: red;
-  font-size: 12px;
+  font-size: 10px;
   padding-left: 10px;
   padding-top: 5px;
   text-transform: uppercase;
 }
+
 .submit_botton_main {
   width: 100%;
   margin-top: 20px;
@@ -78,17 +86,18 @@
   justify-content: center;
   align-items: end;
 }
-.btn{
-    width: 100%;
-    height: 40px;
-    border-radius: 10px;
-    /* background-color: #962ab0; */
-    border: none;
-    font-size: 18px;
-    font-weight: 600;
-    background-color: #6432f3;
+
+.btn {
+  width: 100%;
+  height: 40px;
+  border-radius: 10px;
+  /* background-color: #962ab0; */
+  border: none;
+  font-size: 18px;
+  font-weight: 600;
+  background-color: #6432f3;
 }
 
-input::-webkit-inner-spin-button{
-    -webkit-appearance: none;
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
 }
